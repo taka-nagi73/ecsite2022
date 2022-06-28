@@ -1,0 +1,16 @@
+---
+title: 記事タイトル
+members:
+  - name: oda
+    title: Jamstackエンジニア
+  - name: toyotomi
+    title: フロントエンド・エンジニア
+---
+
+<h1>{{ title }}</h1>
+<div>メイン著者： {{ members[0].name }}</div>
+<ul>
+	{% for member in members %}
+	<li>{{ member.name }} : {{ member.title }}</li>
+	{% endfor %}
+</ul>
