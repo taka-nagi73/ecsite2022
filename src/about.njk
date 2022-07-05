@@ -5,12 +5,6 @@ members:
     title: Jamstackエンジニア
   - name: toyotomi
     title: フロントエンド・エンジニア
+layout: layout.njk
 ---
 
-<h1>{{ title }}</h1>
-<div>メイン著者： {{ members[0].name }}</div>
-<ul>
-	{% for member in members %}
-	<li>{{ member.name }} : {{ member.title }}</li>
-	{% endfor %}
-</ul>
