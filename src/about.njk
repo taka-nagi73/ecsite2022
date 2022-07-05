@@ -1,20 +1,13 @@
 ---
-pagination:
-  data: items
-  size: 1
-  alias: item
-permalink: 'items/{{ item.name | slugify }}/'
+title: 記事タイトル
 layout: layout.njk
+csspath: ../css/
 ---
 
-{{ item | log }}
 
+<h1>goods</h1>
 <ul>
-	<li>{{ item.name }}</li>
-  <li>{{ item.price }}</li>
-  <li>{{ item.state }}</li>
-  <li>{{ item.title }}</li>
-  <li>{{ item.id }}</li>
-  <li>{{ item.colors }}</li>
-  <li>{{ item.maker }}</li>
+	{% for good in goods %}
+	<li><a href="../goods/{{ good.name }}"> {{ good.name }} </a></li>
+	{% endfor %}
 </ul>

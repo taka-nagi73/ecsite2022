@@ -1,0 +1,15 @@
+---
+pagination:
+  data: goods
+  size: 1
+  alias: good
+permalink: 'goods/{{ good.url | slugify }}/'
+layout: layout.njk
+---
+
+{{ good | log }}
+
+<ul>
+	<li>{{ good.name }}</li>
+	<li>{{ good.text }}</li>
+</ul>
