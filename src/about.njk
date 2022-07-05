@@ -1,10 +1,20 @@
 ---
-title: 記事タイトル
-members:
-  - name: oda
-    title: Jamstackエンジニア
-  - name: toyotomi
-    title: フロントエンド・エンジニア
+pagination:
+  data: items
+  size: 1
+  alias: item
+permalink: 'items/{{ item.name | slugify }}/'
 layout: layout.njk
 ---
 
+{{ item | log }}
+
+<ul>
+	<li>{{ item.name }}</li>
+  <li>{{ item.price }}</li>
+  <li>{{ item.state }}</li>
+  <li>{{ item.title }}</li>
+  <li>{{ item.id }}</li>
+  <li>{{ item.colors }}</li>
+  <li>{{ item.maker }}</li>
+</ul>
