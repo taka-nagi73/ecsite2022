@@ -4,13 +4,14 @@ pagination:
   size: 1
   alias: good
 permalink: 'goods/{{ good.url | slugify }}/'
-layout: layout.njk
-csspath: ../../css/
+layout: layout_goods.njk
+csspath: ../css/
 ---
 
 {{ good | log }}
 
 <ul>
+  <li>{{ good.itemphotos }}</li>
 	<li>{{ good.name }}</li>
 	<li>{{ good.price }}</li>
   <li>{{ good.state }}</li>

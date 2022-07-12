@@ -1,0 +1,13 @@
+h2,h3{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+

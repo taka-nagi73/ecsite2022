@@ -1,9 +1,20 @@
 ---
-title: ECサイト
+title: My Shop
 layout: layout.njk
+csspath: ./css/
 ---
 
+
 <h1>{{ title }}</h1>
+
+
+<h2>goods</h2>
 <ul>
-	<li><a href="./about">about</a></li>
+	{% for good in goods %}
+	<li><a href="../goods/{{ good.name }}"> {{ good.name }} </a></li>
+	<li>{{ good.price }}</li>
+	<li>{{ good.state }}</li>
+	{% endfor %}
 </ul>
+
+<h3>more</h3>
