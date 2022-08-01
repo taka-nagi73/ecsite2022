@@ -1,17 +1,29 @@
 ---
+title: My Shop
 pagination:
   data: goods
   size: 1
   alias: good
 permalink: 'goods/{{ good.url | slugify }}/'
-layout: layout_goods.njk
+layout: layout.njk
 csspath: ../css/
 ---
 
 {{ good | log }}
 
+<h1>{{ title }}</h1>
+<div class="nav">
+	<p class="home">home</p>
+	<p class="about">about</p>
+</div>
+
+
+<div class="main">
+<img class="bigphoto" src="/images/{{ good.itemphotos[0] }}" />
+{% for photo in good.itemphotos %}
+<img src="/images/{{ photo }}" />
+{% endfor %}
 <ul>
-  <li>{{ good.itemphotos }}</li>
 	<li>{{ good.name }}</li>
 	<li>{{ good.price }}</li>
   <li>{{ good.state }}</li>
@@ -21,3 +33,4 @@ csspath: ../css/
   <li>{{ good.maker }}</li>
   <li>{{ good.url }}</li>
 </ul>
+</div>

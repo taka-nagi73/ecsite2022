@@ -1,3 +1,8 @@
+.inner{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 h2,h3{
     text-align: center;
 }
@@ -6,8 +11,21 @@ li{
     list-style: none;
 }
 
-ul{
+ul,.nav,.main{
     display: flex;
     flex-wrap: wrap;
 }
 
+.home,.about{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.back{
+    width: 100%;
+    height: 30%;
+}
+
+background-color{
+    color: #fcf6eb;
+}

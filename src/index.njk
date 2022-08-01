@@ -4,16 +4,25 @@ layout: layout.njk
 csspath: ./css/
 ---
 
-
+<div class="nav">
 <h1>{{ title }}</h1>
+	<p class="home">home</p>
+	<p class="about">about</p>
+</div>
 
-
-<h2>goods</h2>
+<img class="back" src="images/2410979.jpg">
+<h2>item</h2>
 <ul>
 	{% for good in goods %}
-	<li><a href="../goods/{{ good.name }}"> {{ good.name }} </a></li>
+	<section class="{{ good.url }}">
+	<h2>{{ ogood.name }}</h2>
+	<div class="mainimage">
+		<img src="images/{{ good.itemphotos[0] }}" alt="{{ good.name }}メイン画像" />
+		<li><a href="../goods/{{ good.url }}"> {{ good.name }} </a></li>
 	<li>{{ good.price }}</li>
 	<li>{{ good.state }}</li>
+	</div>
+</section>
 	{% endfor %}
 </ul>
 
