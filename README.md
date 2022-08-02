@@ -6,11 +6,11 @@
 ## 完成品
 
 <!-- 完成後、ここにURLを貼ってください。-->
-
+https://taka-nagi.boo.jp/_site/
 ## Features
 
 <!-- セールスポイントや差別化などを説明する。-->
-
+家になるぬいぐるみを売るECサイトを制作しました。
 ## Requirement
 
 - 11ty@eleventy 1.0.1
