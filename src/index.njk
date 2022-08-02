@@ -1,29 +1,37 @@
 ---
-title: My Shop
+title: SofttoyShop
 layout: layout.njk
 csspath: ./css/
 ---
+<header class="inner>
+	<div class="nav">
+		<h1>{{ title }}</h1>
+			<ul>
+				<li class="home"><a href="../../index.html">home</a></li>
+			</ul>
+	</div>
+</header>
 
-<div class="nav">
-<h1>{{ title }}</h1>
-	<p class="home">home</p>
-	<p class="about">about</p>
-</div>
+<h2 class="item">item</h2>
 
-<img class="back" src="images/2410979.jpg">
-<h2>item</h2>
-<ul>
+<div class="main inner">
+<ul class="index">
 	{% for good in goods %}
-	<section class="{{ good.url }}">
-	<h2>{{ ogood.name }}</h2>
+	<section class="goodmain">
+	<a href="goods/{{ good.url }}">
 	<div class="mainimage">
 		<img src="images/{{ good.itemphotos[0] }}" alt="{{ good.name }}メイン画像" />
-		<li><a href="../goods/{{ good.url }}"> {{ good.name }} </a></li>
+		<li>{{ good.name }}</li>
 	<li>{{ good.price }}</li>
-	<li>{{ good.state }}</li>
+	<li class="state">{{ good.state }}</li>
 	</div>
+	</a>
 </section>
 	{% endfor %}
 </ul>
+</div>
 
-<h3>more</h3>
+<footer>
+<small>softtoyshop2022</small>
+</footer>
+<script src="js/script.js"></script>

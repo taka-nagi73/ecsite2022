@@ -1,36 +1,57 @@
 ---
-title: My Shop
+title: SofttoyShop
 pagination:
   data: goods
   size: 1
   alias: good
 permalink: 'goods/{{ good.url | slugify }}/'
 layout: layout.njk
-csspath: ../css/
+csspath: ../../css/
 ---
 
 {{ good | log }}
+<header>
+  <h1><a href="../../index.html">{{ title }}</a></h1>
+    <div class="nav">
+      <ul>
+        <li><a href="../../index.html">home</a></li>
+      </ul>
+    </div>
+</header>
 
-<h1>{{ title }}</h1>
-<div class="nav">
-	<p class="home">home</p>
-	<p class="about">about</p>
+<div class="content inner ">
+  <div class="imgbox">
+    <img class="img" src="../../images/{{ good.itemphotos[0] }}" alt="{{ good.name }}メイン画像" />
+    <div class="smallimg">
+      <ul>
+        <li><img class="images" src="../../images/{{ good.itemphotos[0] }}" /></li>
+        <li><img class="images" src="../../images/{{ good.itemphotos[1] }}" /></li>
+        <li><img class="images" src="../../images/{{ good.itemphotos[2] }}" /></li>
+      </ul>
+    </div>
+  </div>
+
+<div class="article_text">
+        <h2>{{ good.name }}</h2>
+        <p class="price">値段；{{ good.price }}</p>
+        <p>説明：{{ good.text }}</p>
+        <p>品番：{{ good.id }}</p>
+        <p>色：{{ good.colors }}</p>
+        <p>メーカー：{{ good.maker }}</p>
+        <p>数量：<input type="number" name="num"></p>
+        <a class="btn btn--color" href="#">カートに入れる</a><br>
+        <br>
+        <small>※こちらの商品の価格には消費税が含まれています。<br>
+        ※全品送料無料です</small>
+ </div>
+</div>
+	
+
+</div>
 </div>
 
+<footer>
+<small>softtoyshop2022</small>
+</footer>
+<script src="../../js/script.js"></script>
 
-<div class="main">
-<img class="bigphoto" src="/images/{{ good.itemphotos[0] }}" />
-{% for photo in good.itemphotos %}
-<img src="/images/{{ photo }}" />
-{% endfor %}
-<ul>
-	<li>{{ good.name }}</li>
-	<li>{{ good.price }}</li>
-  <li>{{ good.state }}</li>
-  <li>{{ good.text }}</li>
-  <li>{{ good.id }}</li>
-  <li>{{ good.colors }}</li>
-  <li>{{ good.maker }}</li>
-  <li>{{ good.url }}</li>
-</ul>
-</div>

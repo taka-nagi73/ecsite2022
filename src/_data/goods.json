@@ -1,161 +1,152 @@
 [
     {
         "itemphotos": [
-            "umaibo01.jpg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "shinamon01.JPEG",
+            "shinamon02.JPEG",
+            "shinamon03.JPEG"
         ],
-        "name": "ぬいぐるみ1",
-        "price": 3000,
+        "name": "シナモロール耳縛りぬいぐるみ",
+        "price": "¥3,000",
         "state": true,
-        "text": "ぬいぐるみです",
-        "id": 307,
+        "text": "家の近くのゲームセンターで取りました。普段とは違う耳がチャームポイント",
+        "id": 1,
         "colors": "白",
         "maker": "（株）サンリオ",
         "url": "sanrio1"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "shinamon04.JPEG",
+            "shinamon05.JPEG",
+            "shinamon06.JPEG"
         ],
-        "name": "ぬいぐるみ2",
-        "price": 3200,
+        "name": "シナモロールコックぬいぐるみ",
+        "price": "¥3,200",
         "state": false,
-        "text": "ぬいぐるみです",
-        "id": 308,
+        "text": "コックのコスチュームをした可愛いシナモンです。",
+        "id": 2,
         "colors": "白",
         "maker": "（株）サンリオ",
         "url": "sanrio2"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "shinamon07.JPEG",
+            "shinamon08.JPEG",
+            "shinamon09.JPEG"
         ],
-        "name": "ぬいぐるみ3",
-        "price": 2800,
+        "name": "シナモロールユニコーンぬいぐるみ",
+        "price": "¥2,300",
         "state": false,
-        "text": "ぬいぐるみです",
-        "id": 3078,
+        "text": "家の近くのゲームセンターで取りました。ユニコーンの格好をしたシナモンです。",
+        "id": 3,
         "colors": "白",
         "maker": "（株）サンリオ",
         "url": "sanrio3"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "shinamon10.JPEG",
+            "shinamon11.JPEG",
+            "shinamon12.JPEG"
         ],
-        "name": "ぬいぐるみ4",
-        "price": 2500,
+        "name": "シナモロールぬいぐるみ",
+        "price": "¥2,500",
         "state": true,
-        "text": "ぬいぐるみです",
-        "id": 77,
+        "text": "結構シンプルな品物のぬいぐるみです。チャームポイントは、耳のハートです。",
+        "id": 4,
         "colors": "白",
         "maker": "（株）サンリオ",
         "url": "sanrio4"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "shinamon20th01.JPEG",
+            "shinamon20th02.JPEG",
+            "shinamon20th03.JPEG"
         ],
-        "name": "ぬいぐるみ5",
-        "price": 2500,
+        "name": "シナモロール20周年ぬいぐるみ",
+        "price": "¥2,300",
         "state": true,
-        "text": "ぬいぐるみです",
-        "id": 3075,
+        "text": "20周年記念のぬいぐるみです。チャームポイントは、タスキです。",
+        "id": 5,
         "colors": "白",
         "maker": "（株）サンリオ",
         "url": "sanrio5"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "shinamon13.JPEG",
+            "shinamon14.JPEG",
+            "shinamon15.JPEG"
         ],
-        "name": "ぬいぐるみ6",
-        "price": 2300,
+        "name": "シナモロールぬいぐるみ",
+        "price": "¥2,300",
         "state": false,
-        "text": "ぬいぐるみです",
-        "id": 3074,
+        "text": "3年ほど前に東京に遊びに行った時に買いました。他のシナモンとは違う表情が特徴です。",
+        "id": 6,
         "colors": "白",
         "maker": "（株）サンリオ",
         "url": "sanrio6"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "shinamongojyou01.JPEG",
+            "shinamongojyou02.JPEG",
+            "shinamongojyou03.JPEG"
         ],
-        "name": "ぬいぐるみ7",
-        "price": 2300,
+        "name": "呪術廻戦五条悟×シナモロールぬいぐるみ",
+        "price": "¥2,400",
         "state": true,
-        "text": "ぬいぐるみです",
-        "id": 3072,
+        "text": "呪術廻戦の五条悟とコラボしたシナモンです。東京に行った時になんとなくでやったら取れたぬいぐるみです。",
+        "id": 7,
         "colors": "白",
         "maker": "（株）サンリオ",
         "url": "sanrio7"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "toge01.JPEG",
+            "toge02.JPEG",
+            "toge03.JPEG"
         ],
-        "name": "ぬいぐるみ8",
-        "price": 2300,
+        "name": "呪術廻戦0狗巻棘ぬいぐるみ",
+        "price": "¥2,000",
         "state": true,
-        "text": "ぬいぐるみです",
-        "id": 171,
+        "text": "呪術廻戦0の時の狗巻棘のぬいぐるみです。",
+        "id": 8,
+        "colors": "紺",
+        "maker": "呪術廻戦",
+        "url": "jyujyutu"
+    },
+    {
+        "itemphotos": [
+            "pochacco01.JPEG",
+            "pochacco02.JPEG",
+            "pochacco03.JPEG"
+        ],
+        "name": "ポチャッコぬいぐるみ",
+        "price": "¥2,600",
+        "state": false,
+        "text": "友達からもらったポチャッコのぬいぐるみです。",
+        "id": 9,
         "colors": "白",
         "maker": "（株）サンリオ",
         "url": "sanrio8"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "same01.JPEG",
+            "same02.JPEG",
+            "same03.JPEG"
         ],
-        "name": "ぬいぐるみ9",
-        "price": 2300,
-        "state": false,
-        "text": "ぬいぐるみです",
-        "id": 3078,
-        "colors": "白",
-        "maker": "（株）サンリオ",
-        "url": "sanrio9"
-    },
-    {
-        "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
-        ],
-        "name": "ぬいぐるみ10",
-        "price": 2300,
+        "name": "IKEAサメのぬいぐるみ",
+        "price": "¥1,900",
         "state": true,
-        "text": "ぬいぐるみです",
-        "id": 3076,
-        "colors": "白",
-        "maker": "（株）サンリオ",
-        "url": "sanrio10"
+        "text": "初めて行ったIKEAで親に買ってもらったサメのぬいぐるみです。",
+        "id": 10,
+        "colors": "青",
+        "maker": "IKEA",
+        "url": "ikea"
     }
 ]
