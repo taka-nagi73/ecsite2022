@@ -1,9 +1,9 @@
 [
     {
         "itemphotos": [
-            "shinamon01.JPEG",
-            "shinamon02.JPEG",
-            "shinamon03.JPEG"
+            "shinamon01.jpg",
+            "shinamon02.jpg",
+            "shinamon03.jpg"
         ],
         "name": "シナモロール耳縛りぬいぐるみ",
         "price": "¥3,000",
@@ -16,9 +16,9 @@
     },
     {
         "itemphotos": [
-            "shinamon04.JPEG",
-            "shinamon05.JPEG",
-            "shinamon06.JPEG"
+            "shinamon04.jpg",
+            "shinamon05.jpg",
+            "shinamon06.jpg"
         ],
         "name": "シナモロールコックぬいぐるみ",
         "price": "¥3,200",
@@ -31,9 +31,9 @@
     },
     {
         "itemphotos": [
-            "shinamon07.JPEG",
-            "shinamon08.JPEG",
-            "shinamon09.JPEG"
+            "shinamon07.jpg",
+            "shinamon08.jpg",
+            "shinamon09.jpg"
         ],
         "name": "シナモロールユニコーンぬいぐるみ",
         "price": "¥2,300",
@@ -46,9 +46,9 @@
     },
     {
         "itemphotos": [
-            "shinamon10.JPEG",
-            "shinamon11.JPEG",
-            "shinamon12.JPEG"
+            "shinamon10.jpg",
+            "shinamon11.jpg",
+            "shinamon12.jpg"
         ],
         "name": "シナモロールぬいぐるみ",
         "price": "¥2,500",
@@ -61,9 +61,9 @@
     },
     {
         "itemphotos": [
-            "shinamon20th01.JPEG",
-            "shinamon20th02.JPEG",
-            "shinamon20th03.JPEG"
+            "shinamon20th01.jpg",
+            "shinamon20th02.jpg",
+            "shinamon20th03.jpg"
         ],
         "name": "シナモロール20周年ぬいぐるみ",
         "price": "¥2,300",
@@ -76,9 +76,9 @@
     },
     {
         "itemphotos": [
-            "shinamon13.JPEG",
-            "shinamon14.JPEG",
-            "shinamon15.JPEG"
+            "shinamon13.jpg",
+            "shinamon14.jpg",
+            "shinamon15.jpg"
         ],
         "name": "シナモロールぬいぐるみ",
         "price": "¥2,300",
@@ -91,9 +91,9 @@
     },
     {
         "itemphotos": [
-            "shinamongojyou01.JPEG",
-            "shinamongojyou02.JPEG",
-            "shinamongojyou03.JPEG"
+            "shinamongojyou01.jpg",
+            "shinamongojyou02.jpg",
+            "shinamongojyou03.jpg"
         ],
         "name": "呪術廻戦五条悟×シナモロールぬいぐるみ",
         "price": "¥2,400",
@@ -106,9 +106,9 @@
     },
     {
         "itemphotos": [
-            "toge01.JPEG",
-            "toge02.JPEG",
-            "toge03.JPEG"
+            "toge01.jpg",
+            "toge02.jpg",
+            "toge03.jpg"
         ],
         "name": "呪術廻戦0狗巻棘ぬいぐるみ",
         "price": "¥2,000",
@@ -120,11 +120,7 @@
         "url": "jyujyutu"
     },
     {
-        "itemphotos": [
-            "pochacco01.JPEG",
-            "pochacco02.JPEG",
-            "pochacco03.JPEG"
-        ],
+        "itemphotos": "[\"pochacco01.jpg,\"pochacco02.jpg\",\"pochacco03.jpg\"]",
         "name": "ポチャッコぬいぐるみ",
         "price": "¥2,600",
         "state": false,
@@ -136,9 +132,9 @@
     },
     {
         "itemphotos": [
-            "same01.JPEG",
-            "same02.JPEG",
-            "same03.JPEG"
+            "same01.jpg",
+            "same02.jpg",
+            "same03.jpg"
         ],
         "name": "IKEAサメのぬいぐるみ",
         "price": "¥1,900",
