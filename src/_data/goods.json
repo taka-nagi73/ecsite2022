@@ -120,7 +120,11 @@
         "url": "jyujyutu"
     },
     {
-        "itemphotos": "[\"pochacco01.jpg,\"pochacco02.jpg\",\"pochacco03.jpg\"]",
+        "itemphotos": [
+            "pochacco01.jpg",
+            "pochacco02.jpg",
+            "pochacco03.jpg"
+        ],
         "name": "ポチャッコぬいぐるみ",
         "price": "¥2,600",
         "state": false,
